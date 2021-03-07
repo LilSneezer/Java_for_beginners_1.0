@@ -13,5 +13,6 @@ public class WorkingWithData13 {
             return word.chars().mapToObj(c -> (char) c).allMatch(character -> alphabet.indexOf(character) != -1);
         }).collect(Collectors.toList());
         System.out.println(stringList);
+        System.out.println("Количество слов: " + (stringList.size()));
     }
 }
