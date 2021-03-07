@@ -5,7 +5,7 @@ public class WorkingWithData11 {
         Scanner scanner = new Scanner(System.in);
         String strNumb = scanner.next();
         Integer numb = scanner.nextInt();
-        Integer intStr = Integer.valueOf(strNumb);
+        Double intStr = Double.valueOf(strNumb);
         System.out.println(Math.max(numb, intStr));
         double minNumb = Math.min(numb, intStr);
         System.out.println(minNumb);
